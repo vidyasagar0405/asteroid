@@ -1,11 +1,3 @@
-FPS
-Right now, our game is re-drawing the screen as fast as it possibly can. This causes it to use a lot more CPU than it actually needs!
-
-Delta Time
-In math, the Greek letter delta (Δ) is often used to represent a change in a value. In game development, we use "delta time" to represent the amount of time that has passed since the last frame was drawn. This value is useful to decouple the game's speed from the speed it's being drawn to the screen.
-
-If your computer speeds up, the asteroids shouldn't also speed up. Conversely, if your computer slows down, the asteroids shouldn't also slow down: they would just move less smoothly.
-
 Assignment
 FPS stands for frames per second. We're going to restrict our game to draw a maximum of 60 times per second, or 60 FPS.
 
